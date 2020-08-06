@@ -1,1 +1,26 @@
-
+type: doubleturrent
+name: Powerfull Turret
+description: a very powerfull turret that is just very excessive but dies easly
+health: 25
+size: 1
+reaload: 1
+range: 300
+ammoUseEffect:shellEjectSmall
+inaccuracy: 1
+rotatespeed: 100
+ammo: {
+	copper: {
+		speed: 50
+		damage: 300
+		bulletwidth: 10
+		bullethight: 15
+		shooteffect: shootsmall
+		smokeeffect: shootsmallsmoke
+		ammomultiplier:2
+	}
+}
+requirments: [
+	copper/100
+]
+catagory: turret
+research: shard
